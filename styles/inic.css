@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    font-size: 20px;
+    /*defino la fuente general*/
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    box-sizing: border-box;
+    
+    /*TPH: VER 0.2PX QUE FALTA!!!*/
+    /*definir variables!!!*/
+    --tamanio: 25px;
+
+    /*definir variables*/
+    --texto-blanco: #ffffff;
+    --color-primario: #9f3647;
+    --fondo-negro: #0a0a0a;
+    
+    /*gris*/
+    --gris: #808080;
+}
+
+* {
+    /* modelo de caja */
+    margin: 0;
+    padding: 0;
+    /**/
+}
+
+.menuw{
+    background-image: linear-gradient(to right top, #4e4b4b8a, #0000008a), url(../imgs/bg-register.jpg);     
+    margin: 0;
+    padding:10;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 75vh/*px|vh|vw|%*/;
+    width: 50vw;/*relativo al viewport*/
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}

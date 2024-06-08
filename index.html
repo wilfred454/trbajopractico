@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<!-- estructura basica-->
+
+<head>
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+
+    <title>Clase1 - HTML</title>
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+
+</head>
+
+<body>
+    <!-- header > flex-container-->
+    <header class="header" id="header">
+        <div class="header_logo">
+            <!--<i class="fa-solid fa-film textoBlanco"></i>-->
+            <h3 class="textoBlanco">CHOCOLATES</h3>
+        </div>
+
+        <div class="header_menu">
+            <a href="">Alfajores</a>
+            <a href="">Tabletas</a>
+            <a href="">Bombones </a>
+
+            <div></div>
+
+
+
+            <a href="/html/inic.html" id="btnIniciarSesion" class="fondoNegro">
+                Iniciar sesion
+            </a>
+        </div>
+    </header>
+    <main>
+
+
+        <section class="main">
+            <h1 class="textoBlanco">Chocolate Artesanal<br>Vertiente</h1>
+            <h2 class="textoBlanco">Disfruta donde quieras.<br> en cualquier momento</h2>
+            <hr>
+        </section>
+        <section class="form-busqueda">
+            <h2>¿Cual chocolate buscas para disfrutar?</h2>
+            <form action="./html/resultado-busqueda.html" id="frm">
+
+                <input type="search" placeholder="Buscar..." id="claveDeBusqueda">
+                <button type="button" id="btnBusqueda">
+                    Buscar
+                </button>
+            </form>
+            <hr>
+            <h4 id="textoBuscado"></h4>
+        </section>
+        <section>
+        </section>
+    </main>
+    <a href="#header">
+        <i class="fa fa-circle-up" id="goBack"></i>
+    </a>
+    <script src="https://kit.fontawesome.com/181725805d.js" crossorigin="anonymous"></script>
+    <script src="./js/buscador.js"></script>
+</body>
+
+</html>
